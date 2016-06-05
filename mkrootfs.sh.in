@@ -161,6 +161,7 @@ fi
 case "$PLATFORM" in
     bananapi*) SUBPLATFORM=${PLATFORM%-*}; QEMU_BIN=qemu-arm-static;;
     beaglebone*) SUBPLATFORM=${PLATFORM%-*}; QEMU_BIN=qemu-arm-static;;
+    bowser*) SUBPLATFORM=${PLATFORM%-*}; QEMU_BIN=qemu-arm-static;;
     cubieboard2*|cubietruck*) SUBPLATFORM=${PLATFORM%-*}; QEMU_BIN=qemu-arm-static;;
     dockstar*) SUBPLATFORM=${PLATFORM%-*}; QEMU_BIN=qemu-arm-static;;
     odroid-u2*) SUBPLATFORM=${PLATFORM%-*}; QEMU_BIN=qemu-arm-static;;
